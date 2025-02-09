@@ -61,6 +61,7 @@ async function createPrimaryContact(email, phoneNumber) {
     await newContact.save();
     return newContact;
 }
+
 async function findLinkedContacts(primaryContactId) {
     return await Contact.find({
         $or: [

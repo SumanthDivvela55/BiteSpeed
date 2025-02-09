@@ -32,5 +32,7 @@ Add the following line in `.env` file:
 MONGO_URL=<your_mongodb_connection_string>
 PORT=<port_number>
 ```
-node server.js
+
+### running backend server
+node index.js
 
